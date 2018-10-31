@@ -1,5 +1,10 @@
 body { 
 background-color: lightblue;
-color: green;
+color: darkblue;
 font-family: arial, helvetica, sans-serif;
 }
+h1 {text-align:center}
+h2 {text-align:center}
+ul {
+    display: block
+    }
