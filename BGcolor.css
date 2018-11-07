@@ -1,6 +1,7 @@
+/* cbc 2018-11-07: I changed the styling and format for the body, h1, h2, and h3 for my index page and resume page, so that they both look the same and are consistant with each other*/ 
 body { 
-background-color: #FC7307;
-color: #342E09;
+background-color: lightblue;
+color: darkblue;
 font-family: arial, helvetica, sans-serif;
 }
 h1 {background-color: gold;
@@ -15,5 +16,9 @@ h3 {background-color: gold;
 text-align: center;
 font-weight: bold;
 font-style:italic}
+h4 {background-color: gold;
+text-align: center;
+font-weight: bold;
+font-style: italic}
 
 
