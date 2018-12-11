@@ -1,5 +1,7 @@
 window.addEventListener('DOMContentLoaded',init,false);
 
+/* cbc 2018-12-10: style and functions of javascript in index page */
+
 function init() {
     alert ('Hi there! Looks like the page loaded! Yay!');
     var buttons = document.getElementsByTagName("button")

@@ -1,5 +1,4 @@
-/* cbc 2018-11-07: I changed the styling and format for the body, h1, h2, and h3 for my index page and resume page, so that they both look the same and are consistant with each other*/ 
-/* cbc 2018-11-12: I changed the padding, margin, and border for all of my headings today, I also styled my images in here so I dont have css in my HTML */
+/* cbc 2018-12-10: body and header styling */
 body { 
 background-color: lightblue;
 color: darkblue;
@@ -38,6 +37,8 @@ text-align: center;
 font-weight: bold;
 font-style: italic}
 
+/* cbc 2018-12-10: style of headers */
+
 .ed{
     color: darkblue
 }
@@ -53,6 +54,8 @@ font-style: italic}
 .en{
     color: darkblue
 }
+
+/* cbc 2018-12-10: style of images */
 
 img {
     width: 300px; height: 300px 

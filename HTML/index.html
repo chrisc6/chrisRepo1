@@ -1,23 +1,25 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+   
     <head>
         <title>Chris Common's Webpage</title>
-        <link rel="stylesheet" type="text/css" href="BGcolor.css" />
+        <link rel="stylesheet" type="text/css" href="style.css" />
         <meta charset="UTF-8" />
         <meta name="author" content="My Name" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <!-- cbc 2018-11-30: adding script -->
-        <script type="text/javascript" src="intro.js">/**/</script>
+        
+        <!-- cbc 2018-12-10: javascript -->
+        
+        <script type="text/javascript" src="javascript.js">/**/</script>
            
     </head>
+    
     <body>
-        <!-- cbc 2018-11-28: adding span -->
-        <span
-            onclick="alert('My name is Chris Common and I am graduting this Spring.');"
-            style="color:blue; text-decoration:underline; cursor:pointer">Pop Up Box</span>
-      
+        
         <h1>The Web Site of Chris Common!</h1>
-       <!-- cbc 2018-11-28: adding time button --> 
+        
+        <!-- cbc 2018-12-10: javascript -->
+        
         <button type="button"
             onclick="document.getElementById('demo').innerHTML = Date()">
             Click me to display Date and Time.</button>
@@ -28,8 +30,8 @@
        
         <h2> Here is more information about Me!</h2>
         <p>Buy me oreos and I will love you</p>
-        <!-- cbc 2018-12-5: added java button to change unorder list color -->
-        <ul id="mybutton"><button>click here to change color of list</button> 
+        
+            <ul>  
             <li>I go to the University of Pittsburgh At Greensburg</li>
             <li>This is my senior year at UPG</li>
             <li>I am a criminal justice major while minoring in pyschology</li>
@@ -38,39 +40,46 @@
             <li>I like to lift weights and exercise</li>
             <li>I like to play video games</li>
             <li>I like to go fishing and hunting</li>
-            <!-- cbc 2018-11-05: changing the format of a list item -->
-            <!-- cbc 2018-11-12: I took out the css for my images and styled them in my css document -->
-            <!-- cbc 2018-11-16: Put in flexbox images and svg -->
-        </ul>
+            </ul>
+        
+        <!-- cbc 2018-12-10: images -->
+       
         <div class="images-container">
         <div class="bobcats"><img src="../IMG/bobcats.jpg" class="image" alt="image of logo" id= "bobcats"/></div>
         <div class="lakehouse"><img src="../IMG/lakehouse.jpg" class="image" alt="image of logo" id= "lakehouse"/></div>
         <div class="MLB"><img src="../IMG/MLB.jpg" class="image" alt="image of logo" id= "MLB"/></div>
         <div class="huntingandfishing"><img src="../IMG/huntingandfishing.jpg" class="image" alt="image of logo" id= "huntingandfishing"/></div>
         </div>
-            <!-- cbc 2018-11-30: swapping two images -->
+         
+        <!-- cbc 2018-12-10: two images swap, favorite baseball team -->
+        
         <button onclick="document.getElementById('myImage').src='../IMG/pirates.jpg'">Show Favorite Team</button>
         <img id="myImage" src="../IMG/mlb.jpg" style="width:100px"/>
         <button onclick="document.getElementById('myImage').src='../IMG/mlb.jpg'">Dont Show Favorite Team</button>
 
         <h3>Future Goals</h3>
-        <ul>
-            <!-- cbc 2018-11-06: changing the format of a list item -->
+        
+            <ul>
             <li>Graduating college in this spring 2019</li>
             <li>Either get picked up by a professional baseball organization, or attend an open tryout for a team in the Frontier league so I can showcase my skills for a MLB organization</li>
             <li>Other options would include pursuing a career in the Criminal Justice Field, or attending school through the First Energy program and become a Lineman for West Penn Power</li>
             <li>I want to build my own house one day where I will have few neighbors, preferably by a lake</li>
             <li>Im a family man, I want a big family, so my name will be passed on for generations to come</li>
-            <!-- cbc 2018-11-12 I put internal links in so that you can jujmp right to my resume headings -->
-        </ul>
-   <a href="resume.html"> My Resume Page</a>
+            </ul>
+   
+        <a href="resume.html"> My Resume Page</a>
         <a href="resume.html#aa"> Education</a>
         <a href="resume.html#zz"> Work Career</a>
         <a href="resume.html#xx"> Acomplishments</a>
         <a href="resume.html#cc"> Skills</a>
         <a href="https://github.com/chrisc6/chrisRepo1"> My GitHub Repo</a>
+   
     </body>
    
-   <!-- include virtual ="ssi/menu.html" -->
+   <!-- cbc 2018-12-8: include virtual ="ssi/menu.html" -->
+    
+   
+    
+    <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>
 
 </html>
